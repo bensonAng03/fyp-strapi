@@ -6,8 +6,11 @@ module.exports = [
     config: {
       enabled: true,
       header: '*',
-      origin: ['https://fypweblearnhub.netlify.app']
-    }
+      origin: [
+        'https://fypweblearnhub.netlify.app',
+        'https://fyp-my-strapi.onrender.com',
+      ],
+    },
   },
   'strapi::poweredBy',
   'strapi::logger',
