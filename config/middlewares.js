@@ -6,10 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       header: '*',
-      origin: [
-        'https://fypweblearnhub.netlify.app',
-        'https://fyp-my-strapi.onrender.com',
-      ],
+      origin: ['*'],
     },
   },
   'strapi::poweredBy',
@@ -20,3 +17,8 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
+
+// origin: [
+//   'https://fypweblearnhub.netlify.app',
+//   'https://fyp-my-strapi.onrender.com',
+// ],
