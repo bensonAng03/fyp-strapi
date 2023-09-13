@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "note_ranks",
+  "info": {
+    "singularName": "note-rank",
+    "pluralName": "note-ranks",
+    "displayName": "noteRank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "score": {
+      "type": "biginteger"
+    },
+    "userId": {
+      "type": "biginteger"
+    },
+    "courseId": {
+      "type": "biginteger"
+    }
+  }
+}

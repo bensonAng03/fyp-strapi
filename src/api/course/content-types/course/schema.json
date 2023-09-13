@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::topic.topic",
+      "inversedBy": "courses"
+    },
+    "assignments": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::assignment.assignment",
+      "inversedBy": "courses"
+    },
+    "price": {
+      "type": "float"
+    },
+    "authorId": {
+      "type": "biginteger"
+    },
+    "students": {
+      "type": "json"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected",
+        "not_reviewed"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "json"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

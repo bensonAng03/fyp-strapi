@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "singularName": "history",
+    "pluralName": "histories",
+    "displayName": "history",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "answeredQuizzes": {
+      "type": "json"
+    },
+    "userId": {
+      "type": "biginteger"
+    }
+  }
+}

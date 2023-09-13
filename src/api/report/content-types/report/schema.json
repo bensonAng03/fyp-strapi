@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "singularName": "report",
+    "pluralName": "reports",
+    "displayName": "report",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "itemId": {
+      "type": "biginteger"
+    },
+    "authorId": {
+      "type": "biginteger"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "approveCourse",
+        "changeCoursePrice",
+        "deleteCourse",
+        "reportCourse",
+        "approveQuiz",
+        "deleteQuiz",
+        "updateReceipt",
+        "reportNote"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "responses",
+  "info": {
+    "singularName": "response",
+    "pluralName": "responses",
+    "displayName": "response",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "authorId": {
+      "type": "biginteger"
+    },
+    "itemId": {
+      "type": "biginteger"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "approveCourse",
+        "changeCoursePrice",
+        "deleteCourse",
+        "reportCourse",
+        "approveQuiz",
+        "deleteQuiz",
+        "updateReceipt",
+        "reportNote"
+      ]
+    }
+  }
+}

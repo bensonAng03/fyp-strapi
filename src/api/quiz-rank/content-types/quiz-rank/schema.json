@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quiz_ranks",
+  "info": {
+    "singularName": "quiz-rank",
+    "pluralName": "quiz-ranks",
+    "displayName": "quizRank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "score": {
+      "type": "biginteger"
+    },
+    "userId": {
+      "type": "biginteger"
+    },
+    "courseId": {
+      "type": "biginteger"
+    }
+  }
+}

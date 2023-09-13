@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applies",
+  "info": {
+    "singularName": "apply",
+    "pluralName": "applies",
+    "displayName": "apply",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "price": {
+      "type": "float"
+    },
+    "choice": {
+      "type": "json"
+    },
+    "image": {
+      "type": "json"
+    },
+    "itemId": {
+      "type": "biginteger"
+    },
+    "authorId": {
+      "type": "biginteger"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "approveCourse",
+        "changeCoursePrice",
+        "deleteCourse",
+        "reportCourse",
+        "approveQuiz",
+        "deleteQuiz",
+        "reportNote"
+      ]
+    },
+    "point": {
+      "type": "biginteger"
+    }
+  }
+}
