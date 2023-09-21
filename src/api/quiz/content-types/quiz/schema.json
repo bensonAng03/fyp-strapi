@@ -38,6 +38,9 @@
     },
     "score": {
       "type": "biginteger"
+    },
+    "courseId": {
+      "type": "biginteger"
     }
   }
 }
